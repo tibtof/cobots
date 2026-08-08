@@ -1,0 +1,5 @@
+{
+  "name": "cobots-java",
+  "version": "0.1.0",
+  "description": "Java language overlay for cobots: functional-style idiom checklist with compiled examples, jdtls LSP recommendation"
+}
