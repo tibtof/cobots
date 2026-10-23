@@ -12,7 +12,7 @@ jobs:
       - name: Structural lint + trigger checks
         run: python3 evals/check.py
       - name: Hook script syntax
-        run: bash -n core/hooks/scripts/*.sh
+        run: for f in core/hooks/scripts/*.sh; do bash -n "$f"; done
       - name: Workflow script syntax
         run: node --check core/workflows/issue-pipeline.js || true
 
