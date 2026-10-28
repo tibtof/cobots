@@ -4,6 +4,11 @@ All notable changes to the cobots plugins. Format: [Keep a Changelog](https://ke
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-27
+
+### Added
+- `cobots-core`: `ceo` agent — ranks milestones and issues against the project's north star, defers competing work, makes launch calls for switched-off features; reads a new `## Strategy` section in `.claude/pipeline.md` (template updated)
+
 ## [0.1.0] - 2026-08-08
 
 ### Added

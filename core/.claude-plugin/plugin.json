@@ -1,5 +1,5 @@
 {
   "name": "cobots-core",
-  "version": "0.1.0",
-  "description": "Agent pipeline for any repo: pm/architect/dev/reviewer/writer roles, GitHub-label state machine, quality-gate hooks, adaptive light/full tiers"
+  "version": "0.2.0",
+  "description": "Agent pipeline for any repo: ceo/pm/architect/dev/reviewer/writer roles, GitHub-label state machine, quality-gate hooks, adaptive light/full tiers"
 }

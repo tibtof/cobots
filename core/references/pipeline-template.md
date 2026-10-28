@@ -14,6 +14,15 @@ changelog: none
 adr: decisions.md
 language: java
 
+## Strategy
+
+<!-- Read by the ceo agent. One north-star sentence, the current bet, and the
+owner's standing product decisions, e.g.:
+- North star: <the one flow/product that matters most>
+- Current bet: <what we are pushing now and why>
+- Standing decisions: <feature X stays switched off until …>
+-->
+
 ## Deviations
 
 <!-- Project-specific overrides of cobots defaults, e.g.:

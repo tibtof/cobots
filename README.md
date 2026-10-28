@@ -8,6 +8,9 @@ state living on the forge (labels, milestones, PRs) so any harness that can
 drive `gh` can play a role. Industrial [cobots](https://en.wikipedia.org/wiki/Cobot)
 are robots built to share a workspace with humans — same idea here: the agents
 do the line work, a human owns the merge button and everything the gates escalate.
+Above the line, an optional `ceo` agent ranks the backlog against the project's
+north star (the `## Strategy` section of `.claude/pipeline.md`) so the line builds
+what matters most first.
 
 ## Install (Claude Code)
 
@@ -70,7 +73,7 @@ One table, aliases only — retune here when a new model generation ships:
 
 | role | model | why |
 |---|---|---|
-| pm, architect, reviewer | `opus` | judgment-heavy gates |
+| ceo, pm, architect, reviewer | `opus` | judgment-heavy gates and priorities |
 | dev, writer | `sonnet` | implementation throughput |
 | triage, mechanical steps | `haiku` | cheap and fast |
 | milestone audit | `fable` | strongest model for the periodic deep look |
